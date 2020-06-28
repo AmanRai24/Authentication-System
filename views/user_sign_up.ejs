@@ -1,0 +1,36 @@
+<h1 id="style">Welcome!!!</h1>
+<div class="main2">
+    <h2>Sign Up using Email:</h2>
+    <div class="form-container">
+        <form action="/users/create" method="POST">
+            <div class="form">
+                <div class="input-bar">
+                    <input class="input" type="text" name="name" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-bar"><input class="input" type="text" name="email" id="email"  placeholder="Your Email" required></div>
+                <div class="input-bar"><input class="input" type="password" name="password" id="password" placeholder="Password"></div>
+                <div class="input-bar"><input class="input" type="password" name="confirm_password" placeholder="Confirm Password" required></div>
+                <div class="input-bar"><input class="btn" type="submit" value="SIGN UP"></div>
+            </div>
+        </form>
+    </div>
+    <Span id="txt">-----------OR---------------</Span>
+    <div>
+        <div class="Sign">Sign Up using Google:</div>
+        <p class="link">
+            <a href="/users/auth/google"><i id="google" class="fab fa-google-plus"></i></a>
+        </p>
+    </div>
+
+
+    <div class="form2">
+        <p id="signup">
+            Existing User?Sign In
+        </p>
+        <div>
+            <a href="/users/signin"><button class="btn2">SIGN IN</button></a>
+         </div>
+        
+    </div>
+
+</div>

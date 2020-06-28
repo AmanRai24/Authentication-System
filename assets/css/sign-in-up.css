@@ -1,0 +1,97 @@
+.main{
+    background-color: lightblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 70%;
+    height: 330px;
+    margin-top: 60px;
+    margin-left: 220px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px lightgrey;
+
+}
+
+.main2{
+    background-color: lightblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 70%;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 220px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px lightgrey;
+
+}
+
+.sign{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.form-container{
+    margin-left: 375px;
+    width: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+
+.input-bar{
+    margin: 5px;
+}
+
+.btn{
+    margin-left: 55px;
+    background-color: black;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+    font-size: 30px;
+}
+
+#google{
+    margin-bottom: -15px;
+    margin-top: -20px;
+}
+
+.btn2{
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.form2{
+    border: 1px solid;
+    width: 30%;
+    margin-left: 330px;
+    border-radius: 10px;
+    box-shadow: #d3d3d3;
+}
+
+#signup{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#txt{
+    color:gray;
+    font-weight: bolder;
+}
+
+#namee{
+    color: blueviolet;
+
+}

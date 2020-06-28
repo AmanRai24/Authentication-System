@@ -1,0 +1,29 @@
+#style{
+      text-align: center;
+      text-transform: capitalize;
+}
+
+.container1{
+    background-color: lightgreen;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    width: 70%;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 220px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px lightgrey;
+}
+.m1{
+      width: 50%;
+
+}
+
+.m2{
+      background-color: lightseagreen;
+      width: 50%;
+}
+
