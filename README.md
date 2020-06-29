@@ -3,7 +3,6 @@
 A basic Authentication System which can be used as the first step in amy web application.
 
 <h2>Welcome Page:<h2>
-
 * A simple page contain signin and signup button.
  
 ![Welcome Page](/Image/welcome.JPG)
@@ -11,7 +10,6 @@ A basic Authentication System which can be used as the first step in amy web app
 <h2>Sign In Page:</h2>
 
 * Sign-In page contains two fields email and password.
-
 * User can sign in using Google also.
 
 ![SignIn Page](/Image/sign-in.JPG)
@@ -19,9 +17,7 @@ A basic Authentication System which can be used as the first step in amy web app
 <h2>Sign Up Page:</h2>
 
 * Sign-In page contains four fields name, email, password ans confirm password.
-
 * On sign-up user redirect to sign-in page.
-
 * User also can use google for sign-in.
 
 ![SignUp Page](/Image/sign-up.JPG)
@@ -29,7 +25,6 @@ A basic Authentication System which can be used as the first step in amy web app
 <h2>Home Page:<h2>
 
 * After login user redirect to his profile page.
-
 * Simple page to welcome user
 
 ![HomePage](/Image/homepage.JPG)
@@ -42,7 +37,7 @@ A basic Authentication System which can be used as the first step in amy web app
 
 ## Folder Structure
 
- * This code follows MVC (Model, View, Controller) Architecture.
+ ### This code follows MVC (Model, View, Controller) Architecture.
 
 - Assets: It contains all static file CSS.
 - Config: It contains connection to Database, Authentication.
@@ -52,7 +47,6 @@ A basic Authentication System which can be used as the first step in amy web app
 - Views: It contins all file which render UI to browser.
 
 ## How To Use
-
 1. Clone the project.
 2. Go to folder.
 3. Run following command.
