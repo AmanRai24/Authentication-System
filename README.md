@@ -1,4 +1,5 @@
 # Authentication-System
+
 A basic Authentication System which can be used as the first step in amy web application.
 
 <h2>Welcome Page:<h2>
@@ -41,7 +42,7 @@ A basic Authentication System which can be used as the first step in amy web app
 
 ## Folder Structure
 
- ###This code follows MVC (Model, View, Controller) Architecture.
+ * This code follows MVC (Model, View, Controller) Architecture.
 
 - Assets: It contains all static file CSS.
 - Config: It contains connection to Database, Authentication.
