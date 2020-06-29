@@ -1,7 +1,7 @@
 # Authentication-System
-A basic Authentication System which can be used as the first step in amy web application.
+-A basic Authentication System which can be used as the first step in any web application.
 
-<h2>Welcome Page:<h2>
+<h2>Welcome Page:</h2>
  
    ![Welcome Page](/Image/welcome.JPG)
 
@@ -15,14 +15,14 @@ A basic Authentication System which can be used as the first step in amy web app
 
    ![SignUp Page](/Image/sign-up.JPG)
 
-<h2>Home Page:<h2>
+<h2>Home Page:</h2>
 
 * After login user redirect to his profile page.
 * Simple page to welcome user
 
   ![HomePage](/Image/hompage.JPG)
 
-<h2>Profile Page:<h2>
+<h2>Profile Page:</h2>
 
 * If user want to update his/her password so he/she can update his password.
 
