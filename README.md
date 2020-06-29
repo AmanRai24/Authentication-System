@@ -3,6 +3,7 @@
 A basic Authentication System which can be used as the first step in amy web application.
 
 <h2>Welcome Page:<h2>
+ 
 * A simple page contain signin and signup button.
  
 ![Welcome Page](/Image/welcome.JPG)
@@ -31,7 +32,7 @@ A basic Authentication System which can be used as the first step in amy web app
 
 <h2>Profile Page:<h2>
 
-* If user want to update his/her password so he can update his password.
+* If user want to update his/her password so he/she can update his password.
 
 ![Profile Page](/Image/updatepass.JPG)
 
