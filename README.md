@@ -1,19 +1,18 @@
 # Authentication-System
-
 A basic Authentication System which can be used as the first step in amy web application.
 
 <h2>Welcome Page:<h2>
  
 * A simple page contain signin and signup button.
- 
-![Welcome Page](/Image/welcome.JPG)
+
+   ![Welcome Page](/Image/welcome.JPG)
 
 <h2>Sign In Page:</h2>
 
 * Sign-In page contains two fields email and password.
 * User can sign in using Google also.
 
-![SignIn Page](/Image/sign-in.JPG)
+   ![SignIn Page](/Image/sign-in.JPG)
 
 <h2>Sign Up Page:</h2>
 
@@ -21,20 +20,20 @@ A basic Authentication System which can be used as the first step in amy web app
 * On sign-up user redirect to sign-in page.
 * User also can use google for sign-in.
 
-![SignUp Page](/Image/sign-up.JPG)
+   ![SignUp Page](/Image/sign-up.JPG)
 
 <h2>Home Page:<h2>
 
 * After login user redirect to his profile page.
 * Simple page to welcome user
 
-![HomePage](/Image/homepage.JPG)
+   ![HomePage](/Image/homepage.JPG)
 
 <h2>Profile Page:<h2>
 
 * If user want to update his/her password so he/she can update his password.
 
-![Profile Page](/Image/updatepass.JPG)
+  ![Profile Page](/Image/updatepass.JPG)
 
 ## Folder Structure
 
