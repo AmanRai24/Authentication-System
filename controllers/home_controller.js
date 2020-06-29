@@ -6,13 +6,5 @@ module.exports.home= async function(req,res){
         return res.render('home')
     }
    
-    // try{
-    //     return res.render('home');
-    // }
-    // catch(err){
-    //     console.log('Error',err);
-    //     return;
-    // }
-   
 }
 

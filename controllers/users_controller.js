@@ -7,7 +7,6 @@ module.exports.signUp = function(req,res){
     if(req.isAuthenticated()){
         return res.redirect('/users/profile');
     }
-    
     return res.render('user_sign_up');
 }
 
@@ -15,24 +14,8 @@ module.exports.signIn = function(req,res){
     if(req.isAuthenticated()){
         return res.redirect('/users/profile');
     }
-    req.flash('success', 'Logged in Successfully');
     return res.render('user_sign_in')
-    
-    
-    
 }
-
-
-module.exports.profile = function(req,res){
-    User.findById(req.user.id, function(err,user){
-        return res.render('user_profile',{
-            title: "Profile",
-            profile_user: user
-        });
-    })
-    
-}
-
 
 //Creating anew user/signup
 module.exports.create = async function(req, res){
@@ -57,8 +40,16 @@ module.exports.create = async function(req, res){
         }
     }
     catch(err){
-        console.log('Error in creating user' + err);
+        console.log('Error create user',err);
     }
+}
+
+module.exports.profile = function(req,res){
+    User.findById(req.user.id, function(err,user){
+        return res.render('user_profile',{
+            profile_user: user
+        });
+    })
 }
 
 //Sign in and create a session
@@ -77,20 +68,21 @@ module.exports.update = async function(req,res){
         }
         let user = await User.findOne({email: req.user.email});
         if(!user){
-            req.flash('error', 'Error in finding the user');
+            req.flash('error', 'Error in finding the user from db');
             return res.redirect('back');
         }
         else{
-            let salt = await bcrypt.genSalt(10);
+            //use of salt and hash to encrypt the password to store in db
+            let salt = await bcrypt.genSalt(10);//10 rounds for encrpyting
             let hash = await bcrypt.hash(req.body.password, salt);
             user.password=hash;
             user.save();
-            req.flash('Success', 'Password updated Successfully');
+            req.flash('success', 'Password updated Successfully');
             return res.redirect('back');
         }
     }
     catch(err){
-        req.flash('Error', 'Error in updating the password');
+        req.flash('Error', 'Error in updating');
         return res.redirect('back');
     }
     

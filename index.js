@@ -16,14 +16,10 @@ const customMware = require('./config/middleware');
 
 //middlewares 
 app.use(express.urlencoded());
-
 app.use(cookieParser());
-
 
 //use for static files 
 app.use(express.static('./assets'));
-
-
 
 //use express layouts
 app.use(expressLayouts);
@@ -35,7 +31,6 @@ app.set('layout extractScripts', true);
 //set up the view engine
 app.set('view engine','ejs');
 app.set('views', './views');
-
 
 //mongo store is used to store the session cookie in the db
 app.use(session({
@@ -52,7 +47,7 @@ app.use(session({
             autoRemove: 'disabled'
         },
         function(err){
-            console.log(err || 'connect-mongodb setup ok');
+            console.log(err||'connect-mongodb setup established');
         }
     )
 })
@@ -67,14 +62,13 @@ app.use(passport.setAuthenticatedUser);
 app.use(flash());
 app.use(customMware.setFlash);
 
-
 //use express router 
 app.use("/",require('./routes'));
 
 //server up and running on port
 app.listen(port,function(err){
     if(err)
-        console.log("Error Starting the server");
+        console.log("Error");
     
-    console.log('Server has been started');
+    console.log('Server is up and running');
 });

@@ -184,8 +184,14 @@ button.social-signin.google {
     color:gray;
     font-weight: bolder;
 }
+.welcome{
+    word-spacing:normal;
+    padding: 0;
+}
 
 #namee{
-    color: blueviolet;
+    color: green;
 }
+
+
 

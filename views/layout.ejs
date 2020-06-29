@@ -8,9 +8,7 @@
         <link rel="stylesheet" href="/css/home.css">
         <link rel="stylesheet" href="/css/layout.css">
         <link rel="stylesheet" href="/css/header.css">
-        <link rel="stylesheet" href="/css/sign-in-up.css">
         <link rel="stylesheet" href="/css/sign-up.css">
-        
         <%- style %>
     </head>
     
@@ -30,6 +28,18 @@
                     timeout: 1000
                 }).show();
             <% } %>
+
+
+            <%if(flash.error && flash.error.length > 0){%>
+                new Noty({
+                    theme: 'relax',
+                    text: "<%=flash.error%>",
+                    type:'error',
+                    layout:'topRight',
+                    timeout:1000
+
+                }).show();
+            <%}%>
 
         </script>
     </body>
