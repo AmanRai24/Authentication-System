@@ -1,5 +1,5 @@
 # Authentication-System
--A basic Authentication System which can be used as the first step in any web application.
+- A basic Authentication System which can be used as the first step in any web application.
 
 <h2>Welcome Page:</h2>
  
