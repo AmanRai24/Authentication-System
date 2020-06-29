@@ -18,10 +18,9 @@ A basic Authentication System which can be used as the first step in amy web app
 <h2>Home Page:<h2>
 
 * After login user redirect to his profile page.
-
 * Simple page to welcome user
 
-  ![HomePage](/Image/homepage.JPG)
+  ![HomePage](/Image/hompage.JPG)
 
 <h2>Profile Page:<h2>
 
@@ -45,25 +44,11 @@ A basic Authentication System which can be used as the first step in amy web app
 2. Go to folder.
 3. Run following command.
     ``` 
-    npm install bcrypt
-    npm install body-parser
-    npm install connect-flash 
-    npm install connect-mongo
-    npm install cookie-parser 
-    npm install crypto 
-    npm install ejs
-    npm install express
-    npm install express-ejs-layouts
-    npm install express-session
-    npm install mongoose 
-    npm install passport
-    npm install passport-google-oauth 
-    npm install passport-local
-
+    npm install 
+    
     ``` 
 4. Connect to mongodb.
 5. Give user credentials in `config > passorport-google-outh2`.
-6. Also change google reChapcha site key and seceret key.
-7. Run command: `nodemon ./index.js`
-8. Go to https://localhost/8000.
-9. Happy Learning 
+6. Run command: `nodemon ./index.js`
+7. Go to https://localhost/8000.
+8. Happy Learning 
