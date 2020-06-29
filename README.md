@@ -3,21 +3,14 @@ A basic Authentication System which can be used as the first step in amy web app
 
 <h2>Welcome Page:<h2>
  
-* A simple page contain signin and signup button.
-
    ![Welcome Page](/Image/welcome.JPG)
 
 <h2>Sign In Page:</h2>
-
-* Sign-In page contains two fields email and password.
-* User can sign in using Google also.
 
    ![SignIn Page](/Image/sign-in.JPG)
 
 <h2>Sign Up Page:</h2>
 
-* Sign-In page contains four fields name, email, password ans confirm password.
-* On sign-up user redirect to sign-in page.
 * User also can use google for sign-in.
 
    ![SignUp Page](/Image/sign-up.JPG)
