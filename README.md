@@ -2,31 +2,47 @@
 A basic Authentication System which can be used as the first step in amy web application.
 
 <h2>Welcome Page:<h2>
+
 * A simple page contain signin and signup button.
+ 
 ![Welcome Page](/Image/welcome.JPG)
 
 <h2>Sign In Page:</h2>
+
 * Sign-In page contains two fields email and password.
+
 * User can sign in using Google also.
+
 ![SignIn Page](/Image/sign-in.JPG)
 
 <h2>Sign Up Page:</h2>
+
 * Sign-In page contains four fields name, email, password ans confirm password.
+
 * On sign-up user redirect to sign-in page.
+
 * User also can use google for sign-in.
+
 ![SignUp Page](/Image/sign-up.JPG)
 
 <h2>Home Page:<h2>
+
 * After login user redirect to his profile page.
+
 * Simple page to welcome user
+
 ![HomePage](/Image/homepage.JPG)
 
 <h2>Profile Page:<h2>
+
 * If user want to update his/her password so he can update his password.
+
 ![Profile Page](/Image/updatepass.JPG)
 
 ## Folder Structure
+
  ###This code follows MVC (Model, View, Controller) Architecture.
+
 - Assets: It contains all static file CSS.
 - Config: It contains connection to Database, Authentication.
 - Controller: It redirect the webpage according to user actions.
@@ -35,6 +51,7 @@ A basic Authentication System which can be used as the first step in amy web app
 - Views: It contins all file which render UI to browser.
 
 ## How To Use
+
 1. Clone the project.
 2. Go to folder.
 3. Run following command.
@@ -58,6 +75,6 @@ A basic Authentication System which can be used as the first step in amy web app
 4. Connect to mongodb.
 5. Give user credentials in `config > passorport-google-outh2`.
 6. Also change google reChapcha site key and seceret key.
-7. Run command: `nodemon .\index.js`
+7. Run command: `nodemon ./index.js`
 8. Go to https://localhost/8000.
 9. Happy Learning 
