@@ -18,9 +18,10 @@ A basic Authentication System which can be used as the first step in amy web app
 <h2>Home Page:<h2>
 
 * After login user redirect to his profile page.
+
 * Simple page to welcome user
 
-   ![HomePage](/Image/homepage.JPG)
+   ![HomePage](Image/homepage.JPG)
 
 <h2>Profile Page:<h2>
 
