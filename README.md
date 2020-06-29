@@ -21,7 +21,7 @@ A basic Authentication System which can be used as the first step in amy web app
 
 * Simple page to welcome user
 
-   ![HomePage](Image/homepage.JPG)
+  ![HomePage](/Image/homepage.JPG)
 
 <h2>Profile Page:<h2>
 
