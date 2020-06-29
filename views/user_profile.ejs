@@ -1,23 +1,22 @@
 <link rel="stylesheet" href="/css/profile.css">
+<link rel="stylesheet" href="/css/sign-up.css">
+<% if(locals.user) {%>
+    <h1 id="style">Welcome!!! <span id="namee"><%=user.name%></span> </h1>
+    <h2 id="style">Do you want to change the password?</h2>
+<%}%>
 
-<div class="cntr">
-    <div class="profile">
-        <h2>Profile</h2>
-    </div>
-    <div class="form-cntr">
-    <!-- if user open his own profile,show the update password form -->
-        <h4>Name :<%=profile_user.name%></h6>
-        <h4>Email :<%=profile_user.email%></h6>
-        <div class="formm">
-            <form action="/users/update/"  method="POST">
-                <div><input class="input-bar" type="password" name="current_pass" placeholder="Current Password" required></div>
-                <div><input class="input-bar" type="password" name="password" placeholder="New Password" required></div>
-                <div><input class="input-bar" type="password" name="confirm_password" placeholder="Re-enter the Password" required></div>
-                <div><input class="btn3" type="submit" value="UPDATE"></div>
-            </form>
-        </div>
-        
-    </div>
-   
-</div>
 
+<div id="login-box1">
+
+      <h1>Update Password</h1>
+      <div class="left2">
+      <form action="/users/update/" method="POST">
+      <input type="password" name="current_password" placeholder="Current Password*" required />
+      <input type="password" name="password" placeholder="New Password*" required />
+      <input type="password" name="confirm_password" placeholder="Re Enter the Password*" required />
+      
+      <span id="Req">* Required fields.</span>
+      <input id="sub" type="submit" value="UPDATE" />
+    </div>
+    </form>
+  </div>

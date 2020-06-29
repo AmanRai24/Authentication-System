@@ -1,19 +1,23 @@
-.cntr{
-    background-color: lightblue;
-    width: 30%;
+#login-box1{
+    margin-top: 10px;
+    margin-left: 450px;
+    position: relative;
+    padding: 10px;
+    width: 400px;
     height: auto;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-left: 500px;
-    margin-top: 100px;
-    text-align: center;
-}
- 
-.form-cntr h4{
-    color: gray;
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.btn3{
-    color: wheat;
-    background-color: black;
+.left2 {
+    margin-left: 70px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 200px;
+    height: auto;
+  }
+
+#sub{
+    margin-left: 30px;
 }
